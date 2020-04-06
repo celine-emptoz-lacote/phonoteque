@@ -1,0 +1,94 @@
+/******** FOOTER *******/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 2%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    color: greenyellow;
+}
+
+footer form {
+    width: 30%;
+}
+footer form input[type="submit"] {
+    
+    padding: 1%;
+    background-color: greenyellow;
+    border: none;
+}
+
+footer nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: greenyellow;
+}
+
+footer div img {
+    width: 20%;
+}
+
+/******* JAZZ *******/
+
+.section-jazz {
+    background-image: url(images/jazz.jpeg);
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-jazz h1 {
+    color: white;
+}
+
+.section-jazz p {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.artistes-jazz{
+    text-align: center;
+    background-color: #e7894c;  
+}
+
+.artistes-jazz a {
+    display: inline-block;
+    width: 10%;
+    padding: 1%;
+    text-decoration: none;
+    color: white; 
+    border-bottom:  #e7894c solid;
+}
+
+.artistes-jazz a:hover {
+    color: yellowgreen;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-bottom: 2px black solid;
+}
+
+.artiste {
+    display: flex;
+    align-items: center;
+}
+
+.artiste img {
+    width: 25%;
+}
