@@ -39,6 +39,9 @@ footer div img {
 
 /******* JAZZ *******/
 
+section {
+    margin-top: 2%;
+}
 .section-jazz {
     background-image: url(images/jazz.jpeg);
     box-sizing: border-box;
@@ -86,9 +89,87 @@ footer div img {
 
 .artiste {
     display: flex;
-    align-items: center;
 }
 
-.artiste img {
+.artiste-audio {
+    text-align: center;
+}
+
+.artiste-audio img {
+    width: 60%;
+}
+
+.artiste-bio img{
     width: 25%;
+}
+
+/**** SLIDER****/
+*{
+    box-sizing:border-box
+}
+
+img{
+max-width: 100%;
+}
+
+.target{
+    display: none   
+}
+
+.albums {
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.img-albums {
+    display: flex;
+    width: 400%;
+    transition: transform .6s ease-in-out;
+    
+}
+
+
+
+/*image 1*/
+#photo1:target ~ .albums .img-albums, #miles1:target ~ .albums .img-albums , #coltrane1:target ~ .albums .img-albums{
+    transform:translatex(0)
+    
+}
+
+/*image 2*/
+#photo2:target ~ .albums .img-albums , #miles2:target ~ .albums .img-albums , #coltrane2:target ~ .albums .img-albums{
+    transform:translatex(-25%)  
+}
+
+/*image 3*/
+#photo3:target ~ .albums .img-albums , #miles3:target ~ .albums .img-albums , #coltrane3:target ~ .albums .img-albums{
+    transform:translatex(-50%)   
+}
+
+/*image 4*/
+#photo4:target ~ .albums .img-albums , #miles4:target ~ .albums .img-albums , #coltrane4:target ~ .albums .img-albums{  
+    transform:translatex(-75%)  
+}
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.navigation li {
+    padding: .25rem;
+}
+
+.navigation img {
+    border: 3px solid white;
+    box-shadow:0 0 5px hsla(0,0%,0%,.4);
+    width: 100%;
+}
+
+#artiste2 , #artiste4 {
+    text-align: right;
 }
