@@ -132,23 +132,23 @@ max-width: 100%;
 
 
 /*image 1*/
-#photo1:target ~ .albums .img-albums, #miles1:target ~ .albums .img-albums , #coltrane1:target ~ .albums .img-albums{
+#photo1:target ~ .albums .img-albums, #miles1:target ~ .albums .img-albums , #coltrane1:target ~ .albums .img-albums , #dahan1:target ~ .albums .img-albums{
     transform:translatex(0)
     
 }
 
 /*image 2*/
-#photo2:target ~ .albums .img-albums , #miles2:target ~ .albums .img-albums , #coltrane2:target ~ .albums .img-albums{
+#photo2:target ~ .albums .img-albums , #miles2:target ~ .albums .img-albums , #coltrane2:target ~ .albums .img-albums , #dahan2:target ~ .albums .img-albums{
     transform:translatex(-25%)  
 }
 
 /*image 3*/
-#photo3:target ~ .albums .img-albums , #miles3:target ~ .albums .img-albums , #coltrane3:target ~ .albums .img-albums{
+#photo3:target ~ .albums .img-albums , #miles3:target ~ .albums .img-albums , #coltrane3:target ~ .albums .img-albums , #dahan3:target ~ .albums .img-albums{
     transform:translatex(-50%)   
 }
 
 /*image 4*/
-#photo4:target ~ .albums .img-albums , #miles4:target ~ .albums .img-albums , #coltrane4:target ~ .albums .img-albums{  
+#photo4:target ~ .albums .img-albums , #miles4:target ~ .albums .img-albums , #coltrane4:target ~ .albums .img-albums, #dahan3:target ~ .albums .img-albums{  
     transform:translatex(-75%)  
 }
 
