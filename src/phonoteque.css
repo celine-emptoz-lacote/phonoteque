@@ -260,8 +260,8 @@ header h1{
     flex-direction: row;
     justify-content: space-around; 
 }
-.arrown::before{
-    content: "n";
+.arrowd::before{
+    content: "d";
     font-family: "fontello";
     font-weight: bold;
     font-size: 2em;
