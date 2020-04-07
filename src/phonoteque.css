@@ -270,3 +270,267 @@ header h1{
     border-radius: 5%;
     text-align: center;  
 }
+/******** AUTRE  *******/
+body {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:1300PX) {
+    body {
+        max-width: 80%;
+    }
+}
+
+
+/******** FOOTER *******/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 2%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    color: greenyellow;
+}
+
+footer form {
+    width: 30%;
+}
+footer form input[type="submit"] {
+    
+    padding: 1%;
+    background-color: greenyellow;
+    border: none;
+}
+
+footer nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: greenyellow;
+}
+
+footer div img {
+    width: 20%;
+}
+
+/***** RESPONSIVE FOOTER *****/
+@media screen and (max-width:500px) {
+    footer {
+        display: block;
+    } 
+    footer form {
+        width: 100%;
+    }
+}
+@media screen and (min-width:501px) and (max-width:1023px) {
+    footer form {
+        width: 20%;
+    }
+}
+
+
+/******* JAZZ *******/
+
+section {
+    margin-top: 2%;
+}
+.section-jazz {
+    background-image: url(images/jazz.jpeg);
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:480px) {
+    .section-jazz {
+        height: 165vh;
+    }
+}
+
+
+.section-jazz h1 {
+    color: white;
+}
+
+.section-jazz p {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.artistes-jazz{
+    text-align: center;
+    background-color: #e7894c;  
+}
+
+.artistes-jazz a {
+    display: inline-block;
+    width: 15%;
+    padding: 1%;
+    text-decoration: none;
+    color: white; 
+    border-bottom:  #e7894c solid;
+}
+
+.artistes-jazz a:hover {
+    color: yellowgreen;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-bottom: 2px black solid;
+}
+
+@media screen and (max-width:500px) {
+    .artistes-jazz a {
+        white-space: nowrap;
+        width: 24%;
+    }
+}
+
+.artiste {
+    display: flex;
+}
+
+@media screen and (max-width:500px) {
+    .artiste {
+        display: block;
+    }
+}
+
+.artiste-audio {
+    text-align: center;
+}
+
+.artiste-audio img {
+    width: 60%;
+}
+
+.artiste-bio {
+    text-align: center;
+}
+
+.artiste-bio h1 {
+    color: #e7894c;
+}
+
+.artiste-bio h1:before, .artiste-bio h1:after { 
+    content:''; 
+    display:inline-block; 
+    vertical-align: middle; 
+    width: 30%; 
+    height: 1px; 
+    background: #000; 
+}
+
+.artiste-bio h1:before { 
+    margin-right: .3rem ;
+}
+
+.artiste-bio h1:after {
+    margin-left: .3rem ;
+}
+
+@media screen and (max-width:500px) {
+    .artiste-bio h1:before, .artiste-bio h1:after { 
+        width: 20%; 
+        
+    }
+}
+
+.artiste-bio img{
+    width: 25%;
+    padding: 0.5%;
+    background-color: #e7894c;
+}
+
+/**** SLIDER****/
+*{
+    box-sizing:border-box
+}
+
+img{
+max-width: 100%;
+}
+
+.target{
+    display: none   
+}
+
+.albums {
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.img-albums {
+    display: flex;
+    width: 400%;
+    transition: transform .6s ease-in-out;  
+}
+
+/*image 1*/
+#photo1:target ~ .albums .img-albums, #miles1:target ~ .albums .img-albums , #coltrane1:target ~ .albums .img-albums , #dahan1:target ~ .albums .img-albums{
+    transform:translatex(0)
+    
+}
+
+/*image 2*/
+#photo2:target ~ .albums .img-albums , #miles2:target ~ .albums .img-albums , #coltrane2:target ~ .albums .img-albums , #dahan2:target ~ .albums .img-albums{
+    transform:translatex(-25%)  
+}
+
+/*image 3*/
+#photo3:target ~ .albums .img-albums , #miles3:target ~ .albums .img-albums , #coltrane3:target ~ .albums .img-albums , #dahan3:target ~ .albums .img-albums{
+    transform:translatex(-50%)   
+}
+
+/*image 4*/
+#photo4:target ~ .albums .img-albums , #miles4:target ~ .albums .img-albums , #coltrane4:target ~ .albums .img-albums, #dahan4:target ~ .albums .img-albums{  
+    transform:translatex(-75%)  
+}
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.navigation li {
+    padding: .25rem;
+}
+
+.navigation img {
+    border: 3px solid white;
+    box-shadow:0 0 5px hsla(0,0%,0%,.4);
+    width: 100%;
+}
+
+.descrition {
+    width: 50%;
+}
+
+hr {
+    width: 90%; 
+    border: #e7894c  1px solid;
+}
+
+.artiste-bio .logo {
+    width: 8%;
+    background-color: white;
+}
