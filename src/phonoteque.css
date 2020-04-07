@@ -33,6 +33,7 @@ header{
     width: 30%;
     height: 80%;
 }
+
 header h1{
     margin-top: 3%;
     color:#81b71a;
@@ -168,6 +169,9 @@ header h1{
 }
 #page3 h1{
     text-align: center;
+}
+#page3 h2{
+    margin:0
 }
 .wrap3{
     display: grid;
