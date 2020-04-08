@@ -170,13 +170,13 @@ header h1{
 .discovery{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
     padding-bottom: 2em;
 }
 .discovery2{
     display: flex;
     flex-direction: row-reverse;
-    
+    justify-content: center;
     padding-bottom: 2em;
 }
 
@@ -192,6 +192,12 @@ header h1{
 }
 .paragraph{
     width: 40%;
+}
+.img_items{
+    transition-duration: 1s;
+}
+.img_items:hover{
+    transform:scale(1.2)
 }
 
 /*MAIN PAGE 1 et 3*/
