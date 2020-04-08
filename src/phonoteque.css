@@ -332,17 +332,13 @@ header h1{
 
 }
 
-@media screen and (max-width:480px) {
-    .section-div-artistes-moment div a {
-        
-         display: BLOCK;
-        
-     
-     }
-}
+
 @media screen and (max-width:1000px) {
-    .lien-pochette {
-        width: 40%;
+    .section-div-artistes-moment div a  {
+       top: 45%; 
+        left: 45%;
+        right: 0;
+        width: 10%;
     }
 
     .section-moment h2 {
