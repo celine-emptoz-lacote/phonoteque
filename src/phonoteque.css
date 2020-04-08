@@ -166,6 +166,60 @@ header h1{
     
 }
 
+/**** ACCUEIL****/
+.section-moment {
+    text-align: center;
+}
+.section-moment h1::after , .section-moment h1::before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: auto;
+    background-color: greenyellow;
+    height: 1px;
+}
+
+.section-moment h1::after {
+    margin-left: 1%;
+}
+
+.section-moment h1::before {
+    margin-right: 1%;
+}
+
+.section-div-artistes-moment {
+    display: flex;
+}
+
+.section-div-artistes-moment div {
+    width:100%;
+    margin: 1%;
+    position: relative;
+    
+    
+}
+.section-div-artistes-moment div a {
+   position: absolute;
+    bottom: 2%;
+    left: 70%;
+    display: none;
+   
+
+}
+
+.section-div-artistes-moment div:hover a {
+    display: block;
+}
+
+.section-div-artistes-moment div:hover h2 {
+    color: greenyellow;
+}
+
+
+
+
+
 /*MAIN PAGE*/
 #page3{
     height: 100vh;
