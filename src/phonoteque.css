@@ -179,6 +179,27 @@ header h1{
     background-color: greenyellow;
     height: 1px;
 }
+@media screen and (min-width:900px) and (max-width:1100px) {
+    .section-moment h1::after , .section-moment h1::before {
+        width: 25%;
+    }
+}
+@media screen and (min-width:501px) and (max-width:899px) {
+    .section-moment h1 {
+        font-size: 20px;
+    }
+    .section-moment h1::after , .section-moment h1::before {
+        width: 12%;
+    }
+}
+@media screen and (max-width:500px) {
+    .section-moment h1 {
+        font-size: 20px;
+    }
+    .section-moment h1::after , .section-moment h1::before {
+        width: 7%;
+    }
+}
 
 .section-moment h1::after {
     margin-left: 1%;
@@ -190,6 +211,15 @@ header h1{
 
 .section-div-artistes-moment {
     display: flex;
+}
+
+@media screen and (max-width:1000px) {
+    .section-div-artistes-moment {
+        display: block;
+    }
+    .pochette {
+        width: 40%;
+    }
 }
 
 .section-div-artistes-moment div {
@@ -207,6 +237,24 @@ header h1{
     display: none;
    
 
+}
+
+@media screen and (max-width:480px) {
+    .section-div-artistes-moment div a {
+        
+         display: BLOCK;
+        
+     
+     }
+}
+@media screen and (max-width:1000px) {
+    .lien-pochette {
+        width: 40%;
+    }
+
+    .section-moment h2 {
+        font-size: 15px;
+    }
 }
 
 .section-div-artistes-moment div:hover a {
