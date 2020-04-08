@@ -201,8 +201,9 @@ header h1{
 }
 .section-div-artistes-moment div a {
    position: absolute;
-    bottom: 2%;
-    left: 70%;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
     display: none;
    
 
@@ -214,6 +215,11 @@ header h1{
 
 .section-div-artistes-moment div:hover h2 {
     color: greenyellow;
+}
+
+.section-div-artistes-moment div:hover .pochette {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 
