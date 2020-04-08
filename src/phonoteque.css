@@ -166,43 +166,67 @@ header h1{
     
 }
 
-<<<<<<< HEAD
 /*Accueil main*/
+.title2::after , .title2::before{
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: auto;
+    background-color: #81b71a;
+    height: 2px;
+}
+.title2{
+    text-align: center;
+}
+.title2::after {
+    margin-left: 1%;
+}
+
+.title2::before {
+    margin-right: 1%;
+}
 .discovery{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 2em;
+    padding-right: 1em;
+    margin:0 1em;
 }
 .discovery2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     padding-bottom: 2em;
+    padding-left: 1em;
+    margin:0 1em;
+}
 }
 
 .player1{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 30%;
+    width: 50%;
 }
 
-.discovery audio{
-    width: 100%;
+.discovery audio , .discovery2 audio{
+    width: 90%;
 }
 .paragraph{
-    width: 40%;
+    width: 50%;
+    
 }
 .img_items{
-    transition-duration: 1s;
+    width: 80%;
+    transition-duration: 0.5s;
 }
 .img_items:hover{
     transform:scale(1.2)
 }
 
-/*MAIN PAGE 1 et 3*/
-=======
+
 /**** ACCUEIL****/
 .section-moment {
     text-align: center;
@@ -263,8 +287,7 @@ header h1{
 
 
 
-/*MAIN PAGE*/
->>>>>>> 490be374d7824dab52b6c80851747b6de7d2ee71
+/*MAIN PAGE 1 et 3*/
 #page3{
     height: 100vh;
 }
