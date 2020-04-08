@@ -53,6 +53,8 @@ header h1{
     width: 30%;
     height: 100%;
     margin-bottom:4em;
+    white-space: nowrap;
+
     
 
 }
@@ -63,11 +65,14 @@ header h1{
     line-height: 5vh;
     font-weight: bold;
     
+    
 }
+
 .connect a, .subscribe a{
     width: 100%;
     text-decoration: none;
     color:white;
+    
 }
 .connect:before{
     content: "l";
@@ -165,6 +170,14 @@ header h1{
     color: #81b71a;
     
 }
+/*responsive*/
+@media screen and (max-width:480px){
+    .connect{
+        margin-right: 15%;
+    }
+}
+
+
 
 /*Accueil main*/
 .title2::after , .title2::before{
