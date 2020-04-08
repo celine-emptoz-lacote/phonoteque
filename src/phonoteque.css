@@ -202,7 +202,7 @@ header h1{
     padding-left: 1em;
     margin:0 1em;
 }
-}
+
 
 .player1{
     display: flex;
@@ -329,6 +329,32 @@ header h1{
 .section-div-artistes-moment div:hover .pochette {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
+}
+
+.section-div-abonnement {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-div-abonnement article {
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #aaa;
+}
+
+.offre {
+    width: 50%;
+    margin: 2%;
+    padding: 1%;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.hr-abonnement {
+    border: greenyellow 1px solid;
 }
 
 
