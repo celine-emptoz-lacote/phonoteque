@@ -166,6 +166,28 @@ header h1{
     
 }
 
+/*Accueil main*/
+.discovery{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-bottom: 2em;
+}
+
+.player1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+
+.discovery audio{
+    width: 100%;
+}
+.paragraph{
+    width: 40%;
+}
+
 /*MAIN PAGE 1 et 3*/
 #page3{
     height: 100vh;
