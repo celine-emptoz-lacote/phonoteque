@@ -401,6 +401,7 @@ section {
     background-image: url(images/jazz.jpeg);
     box-sizing: border-box;
     height: 80vh;
+    margin-top: 0;
     text-align: center;
     display: flex;
     align-items: center;
@@ -414,19 +415,22 @@ section {
 
 @media screen and (max-width:480px) {
     .section-jazz {
-        height: 165vh;
+        height: 100vh;
     }
 }
 
 
 .section-jazz h1 {
+    font-size: 40px;
     color: white;
+    font-family: 'Comic Neue', cursive;
 }
 
 .section-jazz p {
     width: 80%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.61);
+    font-family: 'Oswald', sans-serif;
 }
 
 .artistes-jazz{
@@ -455,12 +459,12 @@ section {
         width: 24%;
     }
 }
-
+/*****/
 .artiste {
     display: flex;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     .artiste {
         display: block;
     }
@@ -479,6 +483,7 @@ section {
 }
 
 .artiste-bio h1 {
+    font-family: 'Comic Neue', cursive;
     color: #e7894c;
 }
 
@@ -510,6 +515,10 @@ section {
     width: 25%;
     padding: 0.5%;
     background-color: #e7894c;
+}
+
+.artiste-bio p {
+    font-family: 'Oswald', sans-serif;
 }
 
 /**** SLIDER****/
@@ -580,7 +589,7 @@ max-width: 100%;
     width: 50%;
 }
 
-hr {
+.hr-jazz {
     width: 90%; 
     border: #e7894c  1px solid;
 }
@@ -588,4 +597,115 @@ hr {
 .artiste-bio .logo {
     width: 8%;
     background-color: white;
+}
+
+.logofleche {
+    width: 3%;
+}
+
+#artiste3 a , #artiste4 a , #artiste2 a , #artiste1 a  {
+    text-decoration: none;
+    color: #e7894c;
+}
+
+
+/******* LATINE ******/
+
+.section-latine {
+    background-image: url(images/musiquelatine.jpg);
+    box-sizing: border-box;
+    height: 80vh;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:480px) {
+    .section-latine {
+        height: 100vh;
+    }
+}
+
+.section-latine h1 {
+    font-size: 40px;
+    color: red;
+}
+
+.section-latine p {
+    width: 80%;
+    margin: auto;
+    background-color: #e6020298;
+    font-family: 'Oswald', sans-serif;
+}
+
+.artistes-latino{
+    text-align: center;
+    background-color: red;  
+}
+
+.artistes-latino a {
+    display: inline-block;
+    width: 15%;
+    padding: 1%;
+    text-decoration: none;
+    color: white; 
+    border-bottom:  red solid;
+}
+
+.artistes-latino a:hover {
+    color: yellowgreen;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-bottom: 2px black solid;
+}
+
+@media screen and (max-width:500px) {
+    .artistes-latino a {
+        white-space: nowrap;
+        width: 24%;
+    }
+}
+
+/*image 1*/
+#shakira1:target ~ .albums .img-albums, #martin1:target ~ .albums .img-albums , #daddy1:target ~ .albums .img-albums , #thalia1:target ~ .albums .img-albums{
+    transform:translatex(0)
+    
+}
+
+/*image 2*/
+#shakira2:target ~ .albums .img-albums , #martin2:target ~ .albums .img-albums , #daddy2:target ~ .albums .img-albums , #thalia2:target ~ .albums .img-albums{
+    transform:translatex(-25%)  
+}
+
+/*image 3*/
+#shakira3:target ~ .albums .img-albums , #martin3:target ~ .albums .img-albums , #daddy3:target ~ .albums .img-albums , #thalia3:target ~ .albums .img-albums{
+    transform:translatex(-50%)   
+}
+
+/*image 4*/
+#shakira4:target ~ .albums .img-albums , #martin4:target ~ .albums .img-albums , #daddy4:target ~ .albums .img-albums, #thalia4:target ~ .albums .img-albums{  
+    transform:translatex(-75%)  
+}
+
+.hrlatino {
+    width: 90%; 
+    border: red  1px solid;
+}
+
+.artiste-bio .latino-h1 {
+    color: red;
+    font-family: 'Comic Neue', cursive;
+    
+}
+
+.artiste-bio .img-latino{
+    width: 25%;
+    padding: 0.5%;
+    background-color: red;
 }
