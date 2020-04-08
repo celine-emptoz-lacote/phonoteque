@@ -166,6 +166,7 @@ header h1{
     
 }
 
+<<<<<<< HEAD
 /*Accueil main*/
 .discovery{
     display: flex;
@@ -201,6 +202,69 @@ header h1{
 }
 
 /*MAIN PAGE 1 et 3*/
+=======
+/**** ACCUEIL****/
+.section-moment {
+    text-align: center;
+}
+.section-moment h1::after , .section-moment h1::before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: auto;
+    background-color: greenyellow;
+    height: 1px;
+}
+
+.section-moment h1::after {
+    margin-left: 1%;
+}
+
+.section-moment h1::before {
+    margin-right: 1%;
+}
+
+.section-div-artistes-moment {
+    display: flex;
+}
+
+.section-div-artistes-moment div {
+    width:100%;
+    margin: 1%;
+    position: relative;
+    
+    
+}
+.section-div-artistes-moment div a {
+   position: absolute;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
+    display: none;
+   
+
+}
+
+.section-div-artistes-moment div:hover a {
+    display: block;
+}
+
+.section-div-artistes-moment div:hover h2 {
+    color: greenyellow;
+}
+
+.section-div-artistes-moment div:hover .pochette {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+
+
+
+/*MAIN PAGE*/
+>>>>>>> 490be374d7824dab52b6c80851747b6de7d2ee71
 #page3{
     height: 100vh;
 }
