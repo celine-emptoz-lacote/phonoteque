@@ -1,12 +1,19 @@
 /*FONT*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*FONT*/
+<<<<<<< HEAD
 
 *{
     box-sizing: border-box;
 }
 
 
+=======
+>>>>>>> d41fad1cfb7a565b6a3feaca163460a324aeaea0
+
+*{
+    box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -697,7 +704,7 @@ body {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
     padding: 2%;
     text-align: center;
     background-color: black;
