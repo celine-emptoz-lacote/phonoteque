@@ -220,7 +220,6 @@ header h1{
     background-color: #bdc3c7;
 }
 
-
 .player1{
     display: flex;
     flex-direction: column;
@@ -243,6 +242,21 @@ header h1{
 .img_items:hover{
     transform:scale(1.2)
 }
+/*responsive*/
+
+@media screen and (max-width:480px){
+    .discovery , .discovery2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .player1 figure{
+       height: 100%;
+    }
+    
+}
+
 
 
 /**** ACCUEIL****/
@@ -499,7 +513,7 @@ footer {
 }
 
 footer h3 {
-    color: greenyellow;
+    color: #81b71a;
 }
 
 footer form {
@@ -508,7 +522,7 @@ footer form {
 footer form input[type="submit"] {
     
     padding: 1%;
-    background-color: greenyellow;
+    background-color: #81b71a;
     border: none;
 }
 
@@ -519,7 +533,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: greenyellow;
+    color: #81b71a;
 }
 
 footer div img {
