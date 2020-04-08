@@ -269,7 +269,7 @@ header h1{
     vertical-align: middle;
     width: 30%;
     margin: auto;
-    background-color: greenyellow;
+    background-color: #81b71a;
     height: 1px;
 }
 
@@ -562,7 +562,7 @@ section {
     margin-top: 2%;
 }
 .section-jazz {
-    background-image: url(images/jazz.jpeg);
+    background-image: url(img/jazz.jpeg);
     box-sizing: border-box;
     height: 80vh;
     margin-top: 0;
@@ -776,7 +776,7 @@ max-width: 100%;
 /******* LATINE ******/
 
 .section-latine {
-    background-image: url(images/musiquelatine.jpg);
+    background-image: url(img/musiquelatine.jpg);
     box-sizing: border-box;
     height: 80vh;
     margin-top: 0;
