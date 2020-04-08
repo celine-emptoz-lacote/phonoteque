@@ -455,7 +455,7 @@ min-height: 100vh;
     border: greenyellow 1px solid;
 }
 
-li {
+.li {
     list-style: url(images/liste.png) ;
     margin-bottom: 5%; 
 }
